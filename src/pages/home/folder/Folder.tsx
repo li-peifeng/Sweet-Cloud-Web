@@ -1,6 +1,5 @@
 import {
   lazy,
-  Show,
   createEffect,
   createMemo,
   onCleanup,
@@ -24,7 +23,6 @@ import lgFullscreen from "sweetphotos/plugins/fullscreen"
 import "sweetphotos/css/lightgallery-bundle.css"
 import { LightGallery } from "sweetphotos/lightgallery"
 import { Search } from "./Search"
-import { Heading } from "@hope-ui/solid"
 
 const ListLayout = lazy(() => import("./List"))
 const GridLayout = lazy(() => import("./Grid"))
