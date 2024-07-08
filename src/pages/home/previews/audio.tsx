@@ -28,7 +28,7 @@ const Preview = () => {
       name: obj.name,
       artist: "•••",
       url: rawLink(obj, true),
-      cover: getSetting("audio_cover") || "images/logo.svg",
+      cover: getSetting("audio_cover") || "images/music.webp",
       lrc: lrc,
     }
     if (objStore.provider === "NeteaseMusic") {
