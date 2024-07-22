@@ -48,17 +48,6 @@
     "share_code-tips": "分享链接的分享码"
   },
   "123Pan": {
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名称",
-      "size": "大小",
-      "update_at": "修改时间"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
     "password": "密码",
     "root_folder_id": "根文件夹ID",
     "username": "用户名"
@@ -73,17 +62,6 @@
   },
   "123PanShare": {
     "accesstoken": "访问令牌",
-    "order_by": "排序",
-    "order_bys": {
-      "file_name": "文件名称",
-      "size": "大小",
-      "update_at": "修改时间"
-    },
-    "order_direction": "排序方式",
-    "order_directions": {
-      "asc": "升序",
-      "desc": "降序"
-    },
     "root_folder_id": "根文件夹ID",
     "sharekey": "分享key",
     "sharepassword": "分享密码"
@@ -399,6 +377,16 @@
     "root_folder_id": "根文件夹ID",
     "show_archive": "显示归档"
   },
+  "HalalCloud": {
+    "app_id": "App ID",
+    "app_secret": "App Secret\n",
+    "app_version": "应用版本",
+    "refresh_token": "刷新令牌",
+    "refresh_token-tips": "登录类型是刷新令牌,此为必填项",
+    "root_folder_path": "根文件夹路径",
+    "upload_thread": "上传线程",
+    "upload_thread-tips": "1<=线程<=32"
+  },
   "ILanZou": {
     "password": "密码",
     "root_folder_id": "根文件夹ID",
@@ -517,6 +505,11 @@
     "root_folder_path": "根文件夹路径",
     "site_id": "站点ID"
   },
+  "Onedrive Sharelink": {
+    "password": "密码",
+    "root_folder_path": "根文件夹路径",
+    "url": "链接"
+  },
   "OnedriveAPP": {
     "chunk_size": "分片大小",
     "client_id": "客户端ID",
@@ -601,6 +594,7 @@
   "SFTP": {
     "address": "地址",
     "ignore_symlink_error": "忽略软链接错误",
+    "passphrase": "密语",
     "password": "密码",
     "private_key": "私钥",
     "root_folder_path": "根文件夹路径",
@@ -680,7 +674,7 @@
       "trash": "回收站"
     },
     "root_folder_id": "根文件夹ID",
-    "safe_password": "Safe password",
+    "safe_password": "安全密码",
     "use_video_url": "使用视频url",
     "username": "用户名"
   },
@@ -711,7 +705,7 @@
       "trash": "回收站"
     },
     "root_folder_id": "根文件夹ID",
-    "safe_password": "Safe password",
+    "safe_password": "安全密码",
     "safe_password-tips": "登录类型是用户名,此为必填项",
     "sign_type": "签名类型",
     "sign_types": {
@@ -955,6 +949,7 @@
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
     "Lanzou": {},
@@ -967,6 +962,7 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
@@ -1022,6 +1018,7 @@
     "FeijiPan": "飞机盘",
     "GoogleDrive": "谷歌云盘",
     "GooglePhoto": "谷歌相册",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
     "Lanzou": "蓝奏云",
@@ -1032,6 +1029,7 @@
     "MoPan": "魔盘",
     "NeteaseMusic": "网易云音乐",
     "Onedrive": "Onedrive",
+    "Onedrive Sharelink": "Onedrive 分享链接",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPak分享",
@@ -1044,8 +1042,8 @@
     "Teambition": "Teambition网盘",
     "Terabox": "Terabox",
     "Thunder": "迅雷",
-    "ThunderBrowser": "ThunderBrowser",
-    "ThunderBrowserExpert": "ThunderBrowserExpert",
+    "ThunderBrowser": "Thunder浏览器",
+    "ThunderBrowserExpert": "Thunder浏览器专家",
     "ThunderExpert": "迅雷专家版",
     "ThunderX": "迅雷X",
     "ThunderXExpert": "迅雷X专家版",
