@@ -48,17 +48,6 @@
     "share_code-tips": "share code of 115 share link"
   },
   "123Pan": {
-    "order_by": "Order by",
-    "order_bys": {
-      "file_name": "File name",
-      "size": "Size",
-      "update_at": "Update at"
-    },
-    "order_direction": "Order direction",
-    "order_directions": {
-      "asc": "Asc",
-      "desc": "Desc"
-    },
     "password": "Password",
     "root_folder_id": "Root folder id",
     "username": "Username"
@@ -73,17 +62,6 @@
   },
   "123PanShare": {
     "accesstoken": "Accesstoken",
-    "order_by": "Order by",
-    "order_bys": {
-      "file_name": "File name",
-      "size": "Size",
-      "update_at": "Update at"
-    },
-    "order_direction": "Order direction",
-    "order_directions": {
-      "asc": "Asc",
-      "desc": "Desc"
-    },
     "root_folder_id": "Root folder id",
     "sharekey": "Sharekey",
     "sharepassword": "Sharepassword"
@@ -399,6 +377,16 @@
     "root_folder_id": "Root folder id",
     "show_archive": "Show archive"
   },
+  "HalalCloud": {
+    "app_id": "App id",
+    "app_secret": "App secret",
+    "app_version": "App version",
+    "refresh_token": "Refresh token",
+    "refresh_token-tips": "login type is refresh_token,this is required",
+    "root_folder_path": "Root folder path",
+    "upload_thread": "Upload thread",
+    "upload_thread-tips": "1 \u003c= thread \u003c= 32"
+  },
   "ILanZou": {
     "password": "Password",
     "root_folder_id": "Root folder id",
@@ -517,6 +505,11 @@
     "root_folder_path": "Root folder path",
     "site_id": "Site id"
   },
+  "Onedrive Sharelink": {
+    "password": "Password",
+    "root_folder_path": "Root folder path",
+    "url": "Url"
+  },
   "OnedriveAPP": {
     "chunk_size": "Chunk size",
     "client_id": "Client id",
@@ -601,6 +594,7 @@
   "SFTP": {
     "address": "Address",
     "ignore_symlink_error": "Ignore symlink error",
+    "passphrase": "Passphrase",
     "password": "Password",
     "private_key": "Private key",
     "root_folder_path": "Root folder path",
@@ -712,7 +706,7 @@
     },
     "root_folder_id": "Root folder id",
     "safe_password": "Safe password",
-    "safe_password-tips": "login type is user,this is required",
+    "safe_password-tips": "super safe password",
     "sign_type": "Sign type",
     "sign_types": {
       "algorithms": "Algorithms",
@@ -955,6 +949,7 @@
     "FeijiPan": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
+    "HalalCloud": {},
     "ILanZou": {},
     "IPFS API": {},
     "Lanzou": {},
@@ -967,6 +962,7 @@
     },
     "NeteaseMusic": {},
     "Onedrive": {},
+    "Onedrive Sharelink": {},
     "OnedriveAPP": {},
     "PikPak": {},
     "PikPakShare": {},
@@ -1022,6 +1018,7 @@
     "FeijiPan": "FeijiPan",
     "GoogleDrive": "GoogleDrive",
     "GooglePhoto": "GooglePhoto",
+    "HalalCloud": "HalalCloud",
     "ILanZou": "ILanZou",
     "IPFS API": "IPFS API",
     "Lanzou": "Lanzou",
@@ -1032,6 +1029,7 @@
     "MoPan": "MoPan",
     "NeteaseMusic": "NeteaseMusic",
     "Onedrive": "Onedrive",
+    "Onedrive Sharelink": "Onedrive Sharelink",
     "OnedriveAPP": "OnedriveAPP",
     "PikPak": "PikPak",
     "PikPakShare": "PikPakShare",
