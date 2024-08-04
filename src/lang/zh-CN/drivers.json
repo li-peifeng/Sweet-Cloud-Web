@@ -415,7 +415,8 @@
       "account": "账户",
       "cookie": "Cookie",
       "url": "链接"
-    }
+    },
+    "user_agent": "用户代理"
   },
   "Lark": {
     "app_id": "App ID",
@@ -427,6 +428,15 @@
     "root_folder_path": "根文件夹路径",
     "tenant_url_prefix": "租户网址前缀",
     "tenant_url_prefix-tips": "租户地址前缀"
+  },
+  "LenovoNasShare": {
+    "host": "Host",
+    "host-tips": "你可以改成你的局域网",
+    "root_folder_path": "根文件夹路径",
+    "share_id": "分享ID",
+    "share_id-tips": "分享链接中最后一个 / 后面的部分",
+    "share_pwd": "分享密码",
+    "share_pwd-tips": "分享链接的密码"
   },
   "Local": {
     "mkdir_perm": "创建文件夹权限",
@@ -706,7 +716,7 @@
     },
     "root_folder_id": "根文件夹ID",
     "safe_password": "安全密码",
-    "safe_password-tips": "登录类型是用户名,此为必填项",
+    "safe_password-tips": "超安全密码",
     "sign_type": "签名类型",
     "sign_types": {
       "algorithms": "算法",
@@ -954,6 +964,7 @@
     "IPFS API": {},
     "Lanzou": {},
     "Lark": {},
+    "LenovoNasShare": {},
     "Local": {},
     "MediaTrack": {},
     "Mega_nz": {},
@@ -1023,6 +1034,7 @@
     "IPFS API": "IPFS API",
     "Lanzou": "蓝奏云",
     "Lark": "Lark (飞书)",
+    "LenovoNasShare": "LenovoNasShare",
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
