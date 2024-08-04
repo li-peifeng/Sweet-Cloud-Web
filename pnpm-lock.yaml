@@ -16,7 +16,7 @@ dependencies:
     version: 0.6.7(@stitches/core@1.2.8)(solid-js@1.4.8)(solid-transition-group@0.0.12)
   '@monaco-editor/loader':
     specifier: ^1.4.0
-    version: 1.4.0(monaco-editor@0.46.0)
+    version: 1.4.0(monaco-editor@0.50.0)
   '@motionone/solid':
     specifier: ^10.14.1
     version: 10.14.1(solid-js@1.4.8)
@@ -131,8 +131,8 @@ devDependencies:
     specifier: ^8.11.8
     version: 8.11.8
   '@types/node':
-    specifier: ^18.7.5
-    version: 18.7.5
+    specifier: ^20.0.0
+    version: 20.0.0
   '@types/sha256':
     specifier: ^0.2.0
     version: 0.2.0
@@ -623,12 +623,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@monaco-editor/loader@1.4.0(monaco-editor@0.46.0):
+  /@monaco-editor/loader@1.4.0(monaco-editor@0.50.0):
     resolution: {integrity: sha512-00ioBig0x642hytVspPl7DbQyaSWRaolYie/UFNjoTdvoKPzo6xrXLhTk9ixgIKcLH5b5vDOjVNiGyY+uDCUlg==}
     peerDependencies:
       monaco-editor: '>= 0.21.0 < 1'
     dependencies:
-      monaco-editor: 0.46.0
+      monaco-editor: 0.50.0
       state-local: 1.0.7
     dev: false
 
@@ -795,14 +795,14 @@ packages:
   /@types/fs-extra@8.1.4:
     resolution: {integrity: sha512-OMcQKnlrkrOI0TaZ/MgVDA8LYFl7CykzFsjMj9l5x3un2nFxCY20ZFlnqrM0lcqlbs0Yro2HbnZlmopyRaoJ5w==}
     dependencies:
-      '@types/node': 18.7.5
+      '@types/node': 20.0.0
     dev: true
 
   /@types/glob@7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.7.5
+      '@types/node': 20.0.0
     dev: true
 
   /@types/hast@2.3.4:
@@ -849,8 +849,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: false
 
-  /@types/node@18.7.5:
-    resolution: {integrity: sha512-NcKK6Ts+9LqdHJaW6HQmgr7dT/i3GOHG+pt6BiWv++5SnjtRd4NXeiuN2kA153SjhXPR/AhHIPHPbrsbpUVOww==}
+  /@types/node@20.0.0:
+    resolution: {integrity: sha512-cD2uPTDnQQCVpmRefonO98/PPijuOnnEy5oytWJFPY1N9aJCz2wJ5kSGWO+zJoed2cY2JxQh6yBuUq4vIn61hw==}
     dev: true
 
   /@types/parse5@6.0.3:
@@ -860,7 +860,7 @@ packages:
   /@types/sha256@0.2.0:
     resolution: {integrity: sha512-QYMr6HuxTQunFWRLZpGopbkgQFoFWOmKTBGgNSYiWMqU/CWnQSTo3edyHvgsRXsOWtOSOG/cmDptPzgCeOsQGw==}
     dependencies:
-      '@types/node': 18.7.5
+      '@types/node': 20.0.0
     dev: true
 
   /@types/sizzle@2.3.3:
@@ -2586,8 +2586,8 @@ packages:
       minimist: 1.2.6
     dev: true
 
-  /monaco-editor@0.46.0:
-    resolution: {integrity: sha512-ADwtLIIww+9FKybWscd7OCfm9odsFYHImBRI1v9AviGce55QY8raT+9ihH8jX/E/e6QVSGM+pKj4jSUSRmALNQ==}
+  /monaco-editor@0.50.0:
+    resolution: {integrity: sha512-8CclLCmrRRh+sul7C08BmPBP3P8wVWfBHomsTcndxg5NRCEPfu/mc2AGU8k37ajjDVXcXFc12ORAMUkmk+lkFA==}
     dev: false
 
   /mri@1.2.0:
