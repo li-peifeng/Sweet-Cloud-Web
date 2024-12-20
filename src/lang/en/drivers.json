@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "Custom upload part size",
+    "custom_upload_part_size-tips": "0 for auto",
     "root_folder_id": "Root folder id",
     "type": "Type",
     "types": {

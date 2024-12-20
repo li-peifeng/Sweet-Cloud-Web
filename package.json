@@ -66,6 +66,7 @@
     "artplayer-plugin-danmuku": "^5.1.4",
     "asciinema-player": "^3.8.0",
     "axios": "^1.0.0",
+    "chardet": "^2.0.0",
     "clsx": "^2.0.0",
     "copy-to-clipboard": "^3.3.2",
     "crypto-js": "^4.2.0",
