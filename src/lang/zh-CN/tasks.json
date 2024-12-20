@@ -19,5 +19,36 @@
     "7": "失败",
     "8": "等待重试",
     "9": "重试前置操作中"
-  }
+  },
+  "retry_selected": "重试已选择",
+  "cancel_selected": "取消选中的",
+  "delete_selected": "删除选中的",
+  "filter": "筛选器",
+  "expand": "展开",
+  "fold": "折叠...",
+  "expand_all": "全部展开",
+  "fold_all": "折叠所有",
+  "attr": {
+    "name": "名称",
+    "creator": "创建者",
+    "state": "状态",
+    "progress": "进度",
+    "operation": "操作",
+    "copy": {
+      "src": "源路径",
+      "dst": "目标路径"
+    },
+    "upload": {
+      "path": "路径"
+    },
+    "offline_download": {
+      "url": "链接地址",
+      "path": "目标路径",
+      "transfer_src": "源路径",
+      "transfer_dst": "目标路径"
+    },
+    "status": "状态",
+    "err": "错误"
+  },
+  "show_only_mine": "只显示我的任务"
 }

@@ -33,7 +33,7 @@
     "toggle_theme": "主题切换",
     "toggle_theme_auto": "自动切换主题",
     "switch_lang": "切换语言",
-    "toggle_markdown_toc": "Markdown ToC 开关",
+    "toggle_markdown_toc": "是否显示大纲",
     "toggle_checkbox": "复选框开关",
     "rename": "重命名",
     "input_new_name": "输入新名称",
@@ -84,7 +84,7 @@
     "regex_rename_preview_old_name": "旧名称",
     "regex_rename_preview_new_name": "新名称",
     "regular_rename": "正则表达式文件重命名。 在第一行输入源文件名正则表达式，并在第二行输入新文件名正则表达式。",
-    "sequential_renaming_desc": "新文件名将有一个数值起始值附加到它， 并且它将通过向起始值添 +1 来按顺序显示。 在第一行输入新的文件名，并在第二行输入起始值。"
+    "sequential_renaming_desc": "新文件名将有一个数值起始值附加到它， 并且它将通过向起始值添加 1 来按顺序显示。 在第一行输入新的文件名，并在第二行输入起始值。"
   },
   "upload": {
     "add_as_task": "添加为任务",

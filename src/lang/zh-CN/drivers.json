@@ -3,7 +3,7 @@
     "cookie": "Cookie",
     "cookie-tips": "需要 QR 代码令牌和 cookie 中的一个",
     "limit_rate": "限制速率",
-    "limit_rate-tips": "限制所有 api 请求速率(1r/[limit_rate]s)",
+    "limit_rate-tips": "限制所有 api 请求率 ([limit]r/1s)",
     "page_size": "分页大小",
     "page_size-tips": "115 驱动程序的列表 API 的每页大小",
     "qrcode_source": "Qrcode 源",
@@ -69,6 +69,8 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "自定义上传分片大小",
+    "custom_upload_part_size-tips": "0 表示根据VIP等级对应大小",
     "root_folder_id": "根文件夹ID",
     "type": "类型",
     "types": {
@@ -349,24 +351,24 @@
     "username": "用户名"
   },
   "FebBox": {
-    "client_id": "Client id",
-    "client_secret": "Client secret",
-    "page_size": "Page size",
-    "page_size-tips": "list api per page size of FebBox driver",
-    "root_folder_id": "Root folder id",
-    "sort_rule": "Sort rule",
+    "client_id": "客户端ID",
+    "client_secret": "客户端密钥",
+    "page_size": "分页大小",
+    "page_size-tips": "FebBox 驱动程序每页的列表大小",
+    "root_folder_id": "根文件夹ID",
+    "sort_rule": "排序规则",
     "sort_rules": {
-      "ext_asc": "Ext asc",
-      "ext_desc": "Ext desc",
-      "name_asc": "Name asc",
-      "name_desc": "Name desc",
-      "size_asc": "Size asc",
-      "size_desc": "Size desc",
-      "update_asc": "Update asc",
-      "update_desc": "Update desc"
+      "ext_asc": "扩展名正序",
+      "ext_desc": "扩展名倒序",
+      "name_asc": "名称升序",
+      "name_desc": "名称降序",
+      "size_asc": "大小升序",
+      "size_desc": "大小降序",
+      "update_asc": "修改时间正序",
+      "update_desc": "修改时间倒序"
     },
-    "user_ip": "User ip",
-    "user_ip-tips": "user ip address for download link which can speed up the download"
+    "user_ip": "用户ip",
+    "user_ip-tips": "用户IP地址用于下载链接，可以加快下载"
   },
   "FeijiPan": {
     "password": "密码",
@@ -454,11 +456,11 @@
     "tenant_url_prefix-tips": "租户地址前缀"
   },
   "LenovoNasShare": {
-    "host": "Host",
-    "host-tips": "你可以改成你的局域网",
+    "host": "主机地址",
+    "host-tips": "你可以将它更改为你的局域网地址",
     "root_folder_path": "根文件夹路径",
     "share_id": "分享ID",
-    "share_id-tips": "分享链接中最后一个 / 后面的部分",
+    "share_id-tips": "最后一个/共享链接后的部分",
     "share_pwd": "分享密码",
     "share_pwd-tips": "分享链接的密码"
   },
@@ -470,8 +472,8 @@
     "show_hidden": "显示隐藏",
     "show_hidden-tips": "显示隐藏目录以及文件",
     "thumb_cache_folder": "缩略图缓存文件夹",
-    "thumb_concurrency": "并发缩略图",
-    "thumb_concurrency-tips": "并发缩略图生成的数量。控制可以并行生成多少个缩略图.",
+    "thumb_concurrency": "缩略图并发数",
+    "thumb_concurrency-tips": "同时生成缩略图的数量。这控制了可以并行生成多少缩略图。",
     "thumbnail": "缩略图",
     "thumbnail-tips": "启用缩略图"
   },
@@ -484,7 +486,7 @@
       "updated_at": "修改时间"
     },
     "order_desc": "降序排列",
-    "project_id": "项目ID",
+    "project_id": "项目 ID",
     "root_folder_id": "根文件夹ID"
   },
   "Mega_nz": {
@@ -572,7 +574,7 @@
     "platform": "平台",
     "platforms": {
       "android": "安卓",
-      "pc": "Pc",
+      "pc": "Pc平台",
       "web": "网页"
     },
     "refresh_token": "刷新令牌",
@@ -586,7 +588,7 @@
     "platform": "平台",
     "platforms": {
       "android": "安卓",
-      "pc": "Pc",
+      "pc": "Pc平台",
       "web": "网页"
     },
     "root_folder_id": "根文件夹ID",
@@ -613,8 +615,8 @@
   },
   "QuarkTV": {
     "device_id": "设备id",
-    "query_token": "令牌",
-    "query_token-tips": "不要编辑'",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要编辑",
     "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夹ID"
   },
@@ -875,8 +877,8 @@
   },
   "UCTV": {
     "device_id": "设备id",
-    "query_token": "令牌",
-    "query_token-tips": "不要编辑'",
+    "query_token": "查询令牌",
+    "query_token-tips": "不要编辑",
     "refresh_token": "刷新令牌",
     "root_folder_id": "根文件夹ID"
   },
@@ -1092,10 +1094,10 @@
     "HalalCloud": "HalalCloud",
     "ILanZou": "蓝奏云优享版",
     "IPFS API": "IPFS API",
-    "KodBox": "KodBox",
+    "KodBox": "可道云",
     "Lanzou": "蓝奏云",
     "Lark": "Lark (飞书)",
-    "LenovoNasShare": "LenovoNasShare",
+    "LenovoNasShare": "联想家庭储存链接分享",
     "Local": "本机存储",
     "MediaTrack": "分秒帧",
     "Mega_nz": "Mega 网盘",
@@ -1123,7 +1125,7 @@
     "ThunderXExpert": "迅雷X专家版",
     "Trainbit": "Trainbit",
     "UC": "UC",
-    "UCTV": "UCTV",
+    "UCTV": "UC TV",
     "USS": "又拍云存储",
     "UrlTree": "地址树",
     "VTencent": "腾讯智能创作平台",
