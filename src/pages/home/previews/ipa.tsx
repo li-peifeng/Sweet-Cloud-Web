@@ -16,7 +16,7 @@ const Ipa = () => {
       <HStack spacing="$2">
         <Button
           as="a"
-          colorScheme="accent"
+          colorScheme="warning"
           href={
             "itms-services://?action=download-manifest&url=" +
             `${api}/i/${safeBtoa(
@@ -33,7 +33,7 @@ const Ipa = () => {
         </Button>
         <Button
           as="a"
-          colorScheme="warning"
+          colorScheme="danger"
           href={
             "apple-magnifier://install?url=" +
             encodeURIComponent(currentObjLink(true))
@@ -49,7 +49,7 @@ const Ipa = () => {
         </Button>
         <Button
           as="a"
-          colorScheme="primary"
+          colorScheme="accent"
           href={objStore.raw_url}
           target="_blank"
         >
