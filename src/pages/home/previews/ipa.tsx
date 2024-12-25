@@ -6,7 +6,7 @@ import { api, baseName, safeBtoa } from "~/utils"
 import { FileInfo } from "./info"
 import { Download } from "./download"
 
-  const Ipa = () => {
+const Ipa = () => {
   const t = useT()
   const [installing, setInstalling] = createSignal(false)
   const [trInstalling, setTrInstalling] = createSignal(false)
