@@ -4,15 +4,23 @@ import { useT, useLink } from "~/hooks"
 import { objStore } from "~/store"
 import { api, baseName, safeBtoa } from "~/utils"
 import { FileInfo } from "./info"
+import { Download } from "./download"
 
-const Ipa = () => {
+  const Ipa = () => {
   const t = useT()
   const [installing, setInstalling] = createSignal(false)
   const [trInstalling, setTrInstalling] = createSignal(false)
   const { currentObjLink } = useLink()
+  const { copyCurrentRawLink } = useCopyLink()
   return (
     <FileInfo>
       <HStack spacing="$2">
+        <Button as="a" href={objStore.raw_url} target="_blank">
+          {t("home.preview.download")}
+        </Button>
+        <Button colorScheme="accent" onClick={() => copyCurrentRawLink(true)}>
+          {t("home.toolbar.copy_link")}
+        </Button>
         <Button
           as="a"
           href={
